@@ -28,6 +28,9 @@
     methods : {
       increase(){
         this.complaintCount +=1;
+      },
+      decrease(){
+        this.complaintCount -=1;
       }
     }
     // components : {
